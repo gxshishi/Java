@@ -16,7 +16,7 @@ public class App {
 		}else {
 			System.out.println("程序发生错误，请输入数字1");
 			}
-		}
+	}
 	
 	}
 }
