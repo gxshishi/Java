@@ -7,6 +7,6 @@ public class App {
 		while (true) {
 			Thread.sleep(1000);
 			System.out.println("随机生成的二维坐标是："+"("+(int)(Math.random()*100%100)+","+(int)(Math.random()*100%100)+")");
-		}
+			}
 	}
 }
