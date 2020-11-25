@@ -16,9 +16,9 @@ public class App {
                 super.keyPressed(e);
                 if (e.getKeyCode()==KeyEvent.VK_ENTER){
                     if (textArea_A.getText().equals("诗诗")){
-                        textArea_B.append("正确\n");
+                        textArea_B.append("诗诗是最可爱的！\n");
                     }else{
-                        textArea_B.append("错误\n");
+                        textArea_B.append("你心里没点数吗？\n");
                     }
                 }
             }
@@ -33,7 +33,7 @@ public class App {
         textArea_A.setForeground(Color.white);
         textArea_B.setForeground(Color.white);
 
-        textArea_A.setText("魔镜魔镜，谁是世界上最好看的人？");
+        textArea_A.setText("魔镜魔镜，谁是世界上最可爱的人？");
         myPanel.add(textArea_A);
         myPanel.add(textArea_B);
         JFrame frame = new JFrame("TestGUI");
