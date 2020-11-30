@@ -8,7 +8,5 @@ public class R {
 		System.out.println(boy_filePath);
 		System.out.println(girl_filePath);
 		System.out.println(array2d[1][2]);
-		
-
 	}
 }
