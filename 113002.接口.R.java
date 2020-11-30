@@ -8,5 +8,6 @@ public interface R {
 		System.out.println(boy_filePath);
 		System.out.println(girl_filePath);
 		System.out.println(array2d[0][1]);
+		
 	}
 }
