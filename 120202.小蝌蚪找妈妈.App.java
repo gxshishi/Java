@@ -1,6 +1,3 @@
-
-import com.sun.org.apache.bcel.internal.generic.SWITCH;
-
 import javax.swing.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
